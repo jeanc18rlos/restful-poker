@@ -3,16 +3,16 @@ A restful api combined with socket.io technology for realtime play and poker sol
 
 [========]
 
-###Features
+### Features
 
-#####Essentials
+##### Essentials
 - API routing with Express.
 - Object document mapping with Mongoose.
 - Authenticate requests with Passport and JWT.
 - CORS enabled
 - Real-time bidirectional communication with Socket.io
 
-#####Environments 
+##### Environments 
 -  Server-side platform with Node.
 - Version control with Git.
 - Code repository with GitHub.
@@ -20,7 +20,7 @@ A restful api combined with socket.io technology for realtime play and poker sol
 - Cloud application hosting with Heroku.
 - Cloud NoSQL database hosting with mLab.
 
-#####To do
+##### To do
 -  Add payment support with paypal
 - Add email support with sendgrid
 - Implement graphql as data query
@@ -34,13 +34,13 @@ A restful api combined with socket.io technology for realtime play and poker sol
 [========]
 
 
-###Table of contents
+### Table of contents
 -  Getting Started
 - Configuration
 - Testing
 - Directory structure
 
-###Getting started
+### Getting started
 1) Clone this repo and cd inside
 
     ```
@@ -54,7 +54,7 @@ A restful api combined with socket.io technology for realtime play and poker sol
     $ npm install
     ```
 
-###Configuration
+### Configuration
 1) Cd into config folder and select main.js and change these lines
 
     ```
@@ -70,14 +70,14 @@ A restful api combined with socket.io technology for realtime play and poker sol
     }
     ```
 
-###Testing
+### Testing
 To test the app via postman you should need to follow these steps
 
 1) set  Content type header as application/www-x-form-urlencoded
 
 2) set the authorization header as Authorization and paste your generated token.
 
-###Directory structure
+### Directory structure
 
 ```
 |--config
