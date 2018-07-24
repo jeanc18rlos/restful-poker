@@ -1,0 +1,31 @@
+{
+  "name": "rest-realtime-server",
+  "version": "1.0.0",
+  "description": "rest sockets saas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanc18rlos/Realtime-chat-server.git"
+  },
+  "author": "Jean Rojas",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  }
+}
