@@ -43,16 +43,21 @@ A restful api combined with socket.io technology for realtime play and poker sol
 ###Getting started
 1) Clone this repo and cd inside
 
+    ```
     $git clone https://github.com/jeanc18rlos/restful-poker.git <PROJECT NAME>
 	cd <PROJECT NAME>
+    ```
 
 2) Install dependencies
 
+    ```
     $ npm install
+    ```
 
 ###Configuration
 1) Cd into config folder and select main.js and change these lines
 
+    ```
     module.exports = {
         // Your prefered port here
             'port' : process.env.PORT || 3000,
@@ -63,6 +68,8 @@ A restful api combined with socket.io technology for realtime play and poker sol
        // your database connection information
             'database': 'myMongoUri',
     }
+    ```
+
 ###Testing
 To test the app via postman you should need to follow these steps
 
@@ -71,7 +78,8 @@ To test the app via postman you should need to follow these steps
 2) set the authorization header as Authorization and paste your generated token.
 
 ###Directory structure
-```json
+
+```
 |--config
 		|--main.js
 		|--passport.js
